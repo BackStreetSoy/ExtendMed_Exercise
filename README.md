@@ -20,3 +20,12 @@ Write a program to determine which starting number, under one million, produces 
 <b>2)</b> Pair integers between 1 and 1000000 with the length of the chain of terms they produce.
 
 <b>3)</b> Identify the chain with the longest length and the integer that produced that chain. 
+
+
+<b>Room for improvement:</b>
+
+Whereas the code I provide above couples a custom method along with iteration through a hash, this approach could be cleaned up by attributing the value of numbers[numbers.keys.max] and numbers.keys.max to variables. This would primarily improve the readability of the code. 
+
+This program is also not written to handle edge cases (for example: negative integers), which I would implement in later iterations. Later iterations could also benefit from users being able to view the chain of terms that specific numbers produce. 
+
+
