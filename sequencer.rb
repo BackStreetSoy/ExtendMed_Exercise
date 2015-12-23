@@ -40,6 +40,6 @@ p "The length of the longest set is: " + numbers.keys.max.to_s
 
 #--------------->>>
 
-#Whereas the code I provide above couples a custom method along with iteration through a hash, this approach could be cleaned up by attributing the value of numbers[numbers.keys.max] and numbers.keys.max to variables. This would improve the readability 
+#Whereas the code I provide above couples a custom method along with iteration through a hash, this approach could be cleaned up by attributing the value of numbers[numbers.keys.max] and numbers.keys.max to variables. This would primarily improve the readability of the code.  
 
 
